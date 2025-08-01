@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 export default function Profile() {
   const socialLinks = [
@@ -19,7 +19,7 @@ export default function Profile() {
   return (
     <div className="pt-28 pb-6 maxwidth">
       <div className="text-white flex flex-col  md:flex-row items-center gap-4">
-        <div>
+        <div className="max-w-3xl px-4">
           <h2 className="font-bold md:text-3xl text-2xl">
             Hi! I'm Torikul Islam
           </h2>
@@ -42,8 +42,11 @@ export default function Profile() {
             />
           </div>
           <p className="text-gray-400 text-sm">
-            A passionate MERN Stack Developer who loves building responsive and
-            user-friendly web applications using modern technologies.
+            "A highly motivated and detail-oriented MERN Stack Developer with a
+            passion for crafting fast, secure, and scalable full-stack web
+            applications. Skilled in modern technologies like React, Node.js,
+            Express, and MongoDB, I love turning ideas into reality through
+            clean and efficient code."
           </p>
           <div className="flex flex-col md:flex-row gap-4 py-2">
             <div>
@@ -79,7 +82,7 @@ export default function Profile() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="social-button hover:text-white"
+                className="social-button"
               >
                 <span className="icon-text">{link.icon}</span>
               </a>
@@ -87,10 +90,13 @@ export default function Profile() {
           </div>
         </div>
         <div>
-          <img
-            src="https://i.postimg.cc/4xst6tj4/stylish-indian-beard-man-pink-tshirt-india-model-posed-outdoor-streets-city-removebg-preview.png"
-            alt="profile image"
-          />
+          <div>
+            <img
+              className="min-w-84"
+              src="https://i.postimg.cc/4xst6tj4/stylish-indian-beard-man-pink-tshirt-india-model-posed-outdoor-streets-city-removebg-preview.png"
+              alt="profile image"
+            />
+          </div>
         </div>
       </div>
     </div>

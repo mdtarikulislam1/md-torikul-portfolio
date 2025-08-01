@@ -5,7 +5,7 @@ import Contact from "../Page/Contact";
 
 export default function RootLayouts() {
   return (
-    <div className="bg-[#14213d] p-3">
+    <div className="bg-[#14213d]">
       <Navber />
       <Outlet />
       <Contact />

@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div>
+      <img src="https://fanciful-griffin-959fab.netlify.app/" alt="" />
+    </div>
   )
 }
