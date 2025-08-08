@@ -1,20 +1,20 @@
-.skills-wrapper {
+/* .skills-wrapper {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   overflow: hidden;
-}
+} */
 
-.skills-container {
+/* .skills-container {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
   padding: 0.5rem 0;
-}
+} */
 
-.scroll-track {
+/* .scroll-track {
   display: flex;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 35s linear infinite;
 }
 
 .skills-container:hover .scroll-track {
@@ -24,19 +24,19 @@
 .scroll-content {
   display: flex;
   gap: 16px;
-}
+} */
 
 /* Optional reverse scroll for 2nd row */
-.scroll-track.reverse {
-  animation: scroll-left-reverse 25s linear infinite;
+/* .scroll-track.reverse {
+  animation: scroll-left-reverse 35s linear infinite;
 }
 
 .skills-container.reverse:hover .scroll-track.reverse {
   animation-play-state: paused;
-}
+} */
 
 /* Animations */
-@keyframes scroll-left {
+/* @keyframes scroll-left {
   0% {
     transform: translateX(0%);
   }
@@ -53,4 +53,4 @@
   100% {
     transform: translateX(0%);
   }
-}
+} */

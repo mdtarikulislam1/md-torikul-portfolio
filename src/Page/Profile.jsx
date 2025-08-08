@@ -7,6 +7,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import SkillsMarquee from "./SkillsMarquee";
 
 export default function Profile() {
   const socialLinks = [
@@ -58,6 +59,7 @@ export default function Profile() {
               <p className="text-gray-400 text-sm">01330111785</p>
             </div>
           </div>
+
           <div className="flex gap-4 mt-2">
             {/* Download CV Button */}
             <button className="social-button">
@@ -93,7 +95,7 @@ export default function Profile() {
           <div>
             <img
               className="min-w-84"
-              src="https://i.postimg.cc/4xst6tj4/stylish-indian-beard-man-pink-tshirt-india-model-posed-outdoor-streets-city-removebg-preview.png"
+              src="https://i.postimg.cc/3w5vrCpH/IMG-20250805-155343-284-1-removebg-preview.png"
               alt="profile image"
             />
           </div>

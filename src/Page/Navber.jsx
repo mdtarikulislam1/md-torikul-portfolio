@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 export default function Navber() {
   return (
-    <nav className="maxwidth flex justify-between items-center md:py-5 text-white">
+    <nav className="maxwidth flex justify-between items-center md:py-5 text-white px-2">
       <h1 className="text-xl font-bold">
         <span className="text-[#00b4d8]">Md</span> Torikul
       </h1>
