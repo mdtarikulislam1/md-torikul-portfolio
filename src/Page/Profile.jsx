@@ -96,12 +96,11 @@ export default function Profile() {
           <div>
             <img
               className="min-w-84"
-              src="https://i.postimg.cc/3w5vrCpH/IMG-20250805-155343-284-1-removebg-preview.png"
+              src="https://i.postimg.cc/hvDJV187/IMG-20250805-155343-284-1-removebg-preview.png"
               alt="profile image"
             />
           </div>
         </div>
-        {/* shdgsh sdhg */}
       </div>
     </div>
   );

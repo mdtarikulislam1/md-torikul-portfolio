@@ -1,4 +1,5 @@
 import { BiLogoFigma } from "react-icons/bi";
+import { FaBootstrap } from "react-icons/fa6";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -27,11 +28,14 @@ const allSkils = [
   { name: "MongoDB", icon: <SiMongodb /> },
   { name: "GitHub", icon: <FaGithub /> },
   { name: "Figma", icon: <BiLogoFigma /> },
+  { name: "Bootstrap", icon: <FaBootstrap /> },
 ];
 
 export default function SkillsMarquee() {
   return (
-    <div className="flex flex-wrap gap-4 my-4">
+    <div className="bg-gray-900 py-20 px-12 my-14">
+      <h4 className="text-cyan-400 text-center text-2xl font-semibold">My Skils</h4>
+      <div className="flex flex-wrap gap-4 my-4">
       {allSkils.map((s) => (
         <button className="social-button">
           <span className="icon-text">
@@ -40,6 +44,7 @@ export default function SkillsMarquee() {
           </span>
         </button>
       ))}
+    </div>
     </div>
   );
 }

@@ -1,14 +1,16 @@
 import React from 'react'
 import Profile from './Profile'
-import MySkills from './MySkils'
+import SkillsMarquee from './SkillsMarquee'
+import About from './About'
 
 export default function Home() {
   return (
     <div>
        <Profile/>
       <div className='maxwidth'>
-         <MySkills/>
+         <SkillsMarquee></SkillsMarquee>
       </div>
+      <About></About>
     </div>
   )
 }
