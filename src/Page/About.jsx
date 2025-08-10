@@ -17,7 +17,7 @@ export default function About() {
         <div className="text-white mx-3 max-w-[500px]">
           <h5 className="font-semibold text-xl pb-4">Name: Md Torikul Islam</h5>
           <p className="font-semibold text-lg pb-1">Location: Rajshahi,Bangladesh</p>
-          <p>
+          <p className="text-gray-200">
             I am a passionate Frontend Developer with a strong eagerness to
             explore and learn new technologies. Currently, I am learning Next.js
             while recapping my JavaScript skills to strengthen my foundations.

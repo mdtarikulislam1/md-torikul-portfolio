@@ -11,10 +11,10 @@ import SkillsMarquee from "./SkillsMarquee";
 
 export default function Profile() {
   const socialLinks = [
-    { icon: <FaFacebookF />, url: "https://facebook.com" },
-    { icon: <FaWhatsapp />, url: "https://wa.me/your-number" },
-    { icon: <FaGithub />, url: "https://github.com" },
-    { icon: <FaLinkedinIn />, url: "https://linkedin.com" },
+    { icon: <FaFacebookF />, url: "https://www.facebook.com/share/1BzNPJyfh7/" },
+    { icon: <FaWhatsapp />, url: "https://wa.me/8801330111785" },
+    { icon: <FaGithub />, url: "https://github.com/mdtarikulislam1" },
+    { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/mdtorikul/" },
   ];
 
   return (
