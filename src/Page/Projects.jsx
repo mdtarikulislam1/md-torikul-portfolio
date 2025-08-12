@@ -23,7 +23,7 @@ export default function Projects() {
       <h4 className="font-semibold text-cyan-400 text-2xl text-center py-20">
         Featured Project
       </h4>
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap justify-center gap-3">
         {
           data.map(d=><ProjectCard d={d} key={d?.id}></ProjectCard>)
         }
