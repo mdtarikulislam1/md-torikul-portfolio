@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import { Link } from "react-scroll";
 
 export default function Navber() {
   return (
@@ -18,16 +19,15 @@ export default function Navber() {
         >
           Home
         </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold border-b-3 border-[#00b4d8] text-[#00b4d8]"
-              : ""
-          }
-          to="/projects"
+
+        <Link
+          to="projects"
+          smooth={true}
+          duration={200}
+          className="cursor-pointer"
         >
           Projects
-        </NavLink>
+        </Link>
       </div>
     </nav>
   );

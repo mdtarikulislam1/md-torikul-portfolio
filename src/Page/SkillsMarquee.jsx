@@ -36,8 +36,8 @@ export default function SkillsMarquee() {
     <div className="bg-gray-900 py-20 px-12 my-14">
       <h4 className="text-cyan-400 text-center text-2xl font-semibold">My Skils</h4>
       <div className="flex flex-wrap gap-4 my-4">
-      {allSkils.map((s) => (
-        <button className="social-button">
+      {allSkils.map((s,index) => (
+        <button key={index} className="social-button">
           <span className="icon-text">
            {s?.icon}
            {s?.name}

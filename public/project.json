@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "project-name": "Matremony",
+    "img2": "https://i.postimg.cc/5t4zKmwb/Screenshot-2025-08-12-073525.png",
+    "img3": "https://i.postimg.cc/NFH22Cw7/Screenshot-2025-08-12-073503.png",
+    "live": "https://zap-shift-d29d6.web.app/",
+    "client-repo-link": "https://github.com/mdtarikulislam1/matremony-client",
+    "server-repo-link": "https://github.com/mdtarikulislam1/matremony-server",
+    "description": "This is an online Matrimony platform designed to connect individuals looking for life partners. The platform allows users to create detailed profiles, search for potential matches using filters, and communicate securely through built-in messaging. The goal is to make the matchmaking process easier, faster, and more reliable for people across different regions.",
+    "feature": [
+      "Beautiful and responsive ui",
+      "client authentication with firebase",
+      "Filters by age location",
+      "Buy option to purchase premium features"
+    ],
+    "tecnology": [
+      "React",
+      "javascript",
+      "Node js",
+      "Express js",
+      "Mongodb",
+      "Firebase"
+    ]
+  },
+  {
+    "id": "2",
+    "project-name": "Product Review Web",
+    "img2": "https://i.postimg.cc/mkzCN279/Screenshot-2025-08-12-073218.png",
+    "img3": "https://i.postimg.cc/VspjsncW/Screenshot-2025-08-12-073159.png",
+    "live": "https://carrer-job-portal.web.app/",
+    "client-repo-link": "https://github.com/mdtarikulislam1/product-review",
+    "server-repo-link": "https://github.com/mdtarikulislam1/product-review-server",
+    "description": "This web application allows users to explore various products, share their opinions through comments, and rate products based on their experience. The platform makes it easy for users to discover products, add new ones, and share honest reviews, creating a helpful community for shoppers.",
+    "feature": [
+      "Add new products",
+      "Post comments on products",
+      "Rate products",
+      "Responsive design for all devices"
+    ],
+    "tecnology": [
+      "React",
+      "javascript",
+      "Node js",
+      "Express js",
+      "Mongodb",
+      "Firebase"
+    ]
+  }
+]
