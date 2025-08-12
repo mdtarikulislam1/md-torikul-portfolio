@@ -3,7 +3,7 @@ import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactCards() {
   return (
-    <div>
+    <div name="contact">
       <h4 className="text-2xl font-semibold text-center text-[#00b4d8]">
         Contact me
       </h4>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { FaDownload, FaPaperPlane } from "react-icons/fa";
 import {
   FaFacebookF,
@@ -11,7 +12,10 @@ import SkillsMarquee from "./SkillsMarquee";
 
 export default function Profile() {
   const socialLinks = [
-    { icon: <FaFacebookF />, url: "https://www.facebook.com/share/1BzNPJyfh7/" },
+    {
+      icon: <FaFacebookF />,
+      url: "https://www.facebook.com/share/1BzNPJyfh7/",
+    },
     { icon: <FaWhatsapp />, url: "https://wa.me/8801330111785" },
     { icon: <FaGithub />, url: "https://github.com/mdtarikulislam1" },
     { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/mdtorikul/" },
@@ -71,12 +75,19 @@ export default function Profile() {
 
             {/* Hire Me Button */}
             {/* dsjhd dhd */}
-            <button className="social-button">
-              <span className="icon-text">
-                <FaPaperPlane />
-                Hire Me
-              </span>
-            </button>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={200}
+              className="cursor-pointer"
+            >
+              <button className="social-button">
+                <span className="icon-text">
+                  <FaPaperPlane />
+                  Hire Me
+                </span>
+              </button>
+            </Link>
           </div>
           <div className="flex gap-4 flex-wrap mt-20">
             {socialLinks.map((link, index) => (

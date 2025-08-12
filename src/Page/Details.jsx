@@ -31,10 +31,10 @@ export default function Details() {
             <img className="w-60 h-80" src={data?.img2} alt="" />
             <img className="w-60 h-80" src={data?.img3} alt="" />
           </div>
-          <p className="py-10 text-2xl font-semibold text-[#00b4d8]">
+          <p className="py-10 text-2xl px-2 font-semibold text-[#00b4d8]">
             Over View
           </p>
-          <p className="text-white max-w-[480px]">{data?.description}</p>
+          <p className="text-white max-w-[480px] px-2">{data?.description}</p>
         </div>
 
         <div className="border-2 border-cyan-800 p-5 mx-3 rounded-lg">
