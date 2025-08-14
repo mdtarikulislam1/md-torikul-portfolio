@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export default function Navber() {
   return (
-    <nav className="maxwidth flex justify-between items-center md:py-5 text-white px-2">
+    <nav className="maxwidth flex justify-between items-center md:py-5 text-white px-4">
       <h1 className="text-xl font-bold">
         <span className="text-[#00b4d8]">Md</span> Torikul
       </h1>

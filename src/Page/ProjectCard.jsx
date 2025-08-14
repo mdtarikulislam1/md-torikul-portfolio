@@ -6,7 +6,7 @@ export default function ProjectCard({d}) {
     console.log(d)
   return (
     <div className='max-w-11/12 mx-4 bg-gray-100 rounded-b-sm'>
-        <iframe width={350} height={400} src={d?.live} frameborder="0"></iframe>
+        <iframe height={400} src={d?.live} frameborder="0"></iframe>
         <div className='py-5 px-4'>
             <h4 className='font-semibold  text-xl'>{d?.["project-name"]}</h4>
             <div className='flex justify-between items-center pt-4'>

@@ -14,7 +14,6 @@ import {
   SiExpress,
   SiFirebase,
 } from "react-icons/si";
-import "../Css/skillsMarque.css";
 
 const allSkils = [
   { name: "HTML", icon: <FaHtml5 /> },

@@ -6,7 +6,7 @@ export default function About() {
       <h4 className="font-semibold text-cyan-400 text-2xl text-center">
         About me
       </h4>
-      <div className="flex flex-wrap items-center gap-5 my-10">
+      <div className="flex flex-wrap justify-center items-center gap-5 my-10">
         <div>
           <img
             className="min-w-84"

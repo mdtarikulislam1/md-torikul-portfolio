@@ -24,7 +24,7 @@ export default function Details() {
 
   console.log(data);
   return (
-    <div className="maxwidth min-h-screen">
+    <div className="maxwidth my-20">
       <div className="flex flex-col md:flex-row justify-center gap-10">
         <div>
           <div className="flex flex-wrap justify-center gap-4">
