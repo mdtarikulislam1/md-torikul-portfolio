@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FaDownload, FaPaperPlane } from "react-icons/fa";
+import { FaEye, FaPaperPlane } from "react-icons/fa";
 import {
   FaFacebookF,
   FaWhatsapp,
@@ -66,12 +66,16 @@ export default function Profile() {
 
           <div className="flex gap-4 mt-2">
             {/* Download CV Button */}
-            <button className="social-button">
-              <span className="icon-text">
-                <FaDownload />
-                Download CV
-              </span>
-            </button>
+
+            <a  target="_blank"   href="https://drive.google.com/file/d/1UU5a56xvqJGow24YDVu4ZLq5s9L-TF7J/view?usp=sharing">
+             
+              <button className="social-button">
+                <span className="icon-text">
+                  <FaEye />
+                  View Resume
+                </span>
+              </button>
+            </a>
 
             {/* Hire Me Button */}
             {/* dsjhd dhd */}
