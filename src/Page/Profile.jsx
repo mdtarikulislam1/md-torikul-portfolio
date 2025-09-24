@@ -67,7 +67,7 @@ export default function Profile() {
           <div className="flex gap-4 mt-2">
             {/* Download CV Button */}
 
-            <a  target="_blank"   href="https://drive.google.com/file/d/1UU5a56xvqJGow24YDVu4ZLq5s9L-TF7J/view?usp=sharing">
+            <a  target="_blank"   href="https://drive.google.com/file/d/1MNyIvAZqrRl6zYbuXLvP8Z4PvQmecMmB/view?usp=sharing">
              
               <button className="social-button">
                 <span className="icon-text">
