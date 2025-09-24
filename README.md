@@ -26,18 +26,12 @@
 
 ---
 
-## 📊 GitHub Stats
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)  
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
-
----
 
 ## 📫 Connect with Me
-- 🌐 Portfolio: [your-portfolio-link](https://splendid-sable-47345e.netlify.app/)
-- 💼 LinkedIn: [your-linkedin-link](https://www.linkedin.com/in/mdtorikul/)
+- 🌐 Portfolio: [My Portfolio](https://splendid-sable-47345e.netlify.app/)
+- 💼 LinkedIn: [My Linkldin](https://www.linkedin.com/in/mdtorikul/)
 - 📧 Email: mdtorikul908765@gmail.com
 
 ---
 
-⭐️ From [Your Name](https://github.com/mdtarikulislam1)
+⭐️ From [Md Torikul Islam](https://github.com/mdtarikulislam1)
