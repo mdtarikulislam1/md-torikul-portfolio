@@ -17,7 +17,6 @@ export default function Projects() {
       });
   }, []);
 
-  console.log(data);
   return (
     <div name="projects" className="maxwidth my-20">
       <h4 className="font-semibold text-cyan-400 text-2xl text-center py-20">

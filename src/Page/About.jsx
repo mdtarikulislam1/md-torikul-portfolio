@@ -1,81 +1,131 @@
 import React from "react";
-import { TbBrandJavascript } from "react-icons/tb";
-import { GrReactjs } from "react-icons/gr";
-import { RiNodejsLine } from "react-icons/ri";
-import { FaCss3 } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { RiNextjsLine } from "react-icons/ri";
 
 export default function About() {
-  const skill = [
-    {
-      id: 1,
-      t: "Java script",
-      icon: <TbBrandJavascript />,
-    },
-    {
-      id: 2,
-      t: "Java script",
-      icon: <GrReactjs />,
-    },
-    {
-      id: 3,
-      t: "Java script",
-      icon: <RiNodejsLine />,
-    },
-    {
-      id: 4,
-      t: "Java script",
-      icon: <FaCss3 />,
-    },
-    {
-      id: 5,
-      t: "Java script",
-      icon: <SiExpress />,
-    },
-    {
-      id: 6,
-      t: "Java script",
-      icon: <RiNextjsLine />,
-    },
-  ];
-
   return (
-    <div className="maxwidth px-4">
-      <h3 className="text-2xl font-bold text-[#00b4d8] text-center py-8">
-        About Us
+    <div className="maxwidth px-4 py-16">
+      <h3
+        className="text-3xl font-bold text-[#00b4d8] text-center mb-10"
+        data-aos="fade-up"
+      >
+        About Me
       </h3>
-     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-        {
-          skill.map(s=>(
-           <div key={s?.id} className="border-2 border-[#00b4d8] bg-gradient-to-tr from-gray-500 to-gray-900 rounded-lg p-5 flex flex-col justify-center items-center">
-            <div className="text-[#00b4d8] text-4xl animate-bounce">{s?.icon}</div>
-            <p className="font-semibold text-xl text-white">{s?.t}</p>
-           </div>
-          ))
-        }
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        {/* LEFT SIDE — IMAGE + BASIC INFO */}
+        <div className="flex flex-col gap-3">
+          <div
+            className="bg-gradient-to-br from-[#0b1a2a] to-[#101b30] p-8 rounded-xl shadow-lg border border-[#00b4d8]/40"
+            data-aos="fade-right"
+          >
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Personal Information
+            </h4>
+
+            <div className="space-y-3 text-gray-300">
+              <p>
+                <span className="font-semibold text-white">Location:</span>{" "}
+                Rajshahi, Bangladesh
+              </p>
+
+              <p>
+                <span className="font-semibold text-white">Experience:</span> 2
+                months (Frontend Developer)
+              </p>
+
+              <p>
+                <span className="font-semibold text-white">Focus:</span>{" "}
+                Fullstack Development, Modern Web Technologies
+              </p>
+
+              <p>
+                <span className="font-semibold text-white">
+                  Current Learning:
+                </span>{" "}
+                Type Script (Deep Dive) & Advanced JavaScript
+              </p>
+            </div>
+          </div>
+          {/* COMPANY PROFILE SECTION */}
+          <div
+            className="bg-gradient-to-br from-[#0b1a2a] to-[#101b30] p-8 rounded-xl shadow-lg border border-[#00b4d8]/40 mt-6"
+            data-aos="fade-right"
+          >
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Company Profile
+            </h4>
+
+            <div className="flex items-start gap-5">
+              {/* Company Image */}
+              <img
+                src="https://i.postimg.cc/3xHk8C8f/company-logo.png"
+                alt="Company Logo"
+                className="w-20 h-20 rounded-lg border border-[#00b4d8]/40 shadow-md object-cover"
+              />
+
+              {/* Company Info */}
+              <div className="space-y-3 text-gray-300">
+                <p>
+                  <span className="font-semibold text-white">
+                    Company Name:
+                  </span>{" "}
+                  Bsheba
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">Role:</span>{" "}
+                  Frontend Developer (Intern)
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">Joined:</span>{" "}
+                  October 2025
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">Location:</span>{" "}
+                  Dhaka, Bangladesh
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">Tech Stack:</span>{" "}
+                  React, Tailwind, Node.js (basic)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT SIDE — FULL BIO */}
+        <div
+          className="bg-gradient-to-tr from-[#0b1a2a] to-[#101b30] p-8 rounded-xl shadow-lg border border-[#00b4d8]/40"
+          data-aos="fade-left"
+        >
+          <h4 className="text-white text-xl font-semibold mb-4">My Journey</h4>
+
+          <p className="text-gray-300 leading-7">
+            I am a passionate Frontend Developer with a strong eagerness to
+            learn modern technologies. My journey started in school, where I
+            completed my early education and graduated from Class 5 with GPA 5.
+            Later, I studied in a Madrasha and completed my Hifz. After that, I
+            appeared for my SSC exam and discovered my interest in programming.
+            <br />
+            <br />
+            I started learning coding from Programming Hero and built my
+            foundation in JavaScript, React, and modern web development tools.
+            Currently, I am learning Next.js and revisiting core JavaScript
+            concepts to strengthen my skillset.
+            <br />
+            <br />
+            Additionally, I have **2 months of job experience as a Frontend
+            Developer**, where I worked with real-life projects, teamwork,
+            deadlines, and clean coding practices.
+            <br />
+            <br />
+            My long-term goal is to become a skilled Fullstack Developer and
+            contribute to impactful projects in the tech industry.
+          </p>
+        </div>
       </div>
-      <div>
-        <h4 className="text-gray-100 text-lg py-2">
-          <span className="text-white font-semibold text-xl">Location:</span> Rajshahi
-          Bangladesh
-        </h4>
-        <p className="text-gray-100">
-          I am a passionate Frontend Developer with a strong eagerness to
-          explore and learn new technologies. Currently, I am learning Next.js
-          while recapping my JavaScript skills to strengthen my foundations. My
-          learning journey started in school, where I completed my early
-          education and graduated from Class 5 with GPA 5. Later, I enrolled in
-          a Madrasha and successfully completed my Hifz. After that, I appeared
-          for my SSC examination and began my journey into the world of
-          programming. I learned coding from Programming Hero and have been
-          improving my skills through continuous practice and projects. My
-          ambition is to become a skilled Fullstack Developer and work on
-          impactful projects that make a difference in the tech industry.
-        </p>
-      </div>
-     </div>
     </div>
   );
 }

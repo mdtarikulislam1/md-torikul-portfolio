@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-scroll";
 import { FaEye, FaPaperPlane } from "react-icons/fa";
 import {
@@ -8,7 +8,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import SkillsMarquee from "./SkillsMarquee";
+
 
 export default function Profile() {
   const socialLinks = [
@@ -20,6 +20,9 @@ export default function Profile() {
     { icon: <FaGithub />, url: "https://github.com/mdtarikulislam1" },
     { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/mdtorikul/" },
   ];
+
+
+
 
   return (
     <div className="pt-28 pb-6 maxwidth">
@@ -109,9 +112,9 @@ export default function Profile() {
         </div>
         <div>
           <div>
-            <img
+            <img data-aos="fade-up"
               className="min-w-84"
-              src="https://i.postimg.cc/hvDJV187/IMG-20250805-155343-284-1-removebg-preview.png"
+              src="https://i.postimg.cc/25wS61DF/193250547-1-removebg-preview.png"
               alt="profile image"
             />
           </div>
