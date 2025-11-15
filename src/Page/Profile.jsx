@@ -1,4 +1,3 @@
-
 import { Link } from "react-scroll";
 import { FaEye, FaPaperPlane } from "react-icons/fa";
 import {
@@ -8,7 +7,6 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-
 
 export default function Profile() {
   const socialLinks = [
@@ -20,9 +18,6 @@ export default function Profile() {
     { icon: <FaGithub />, url: "https://github.com/mdtarikulislam1" },
     { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/mdtorikul/" },
   ];
-
-
-
 
   return (
     <div className="pt-28 pb-6 maxwidth">
@@ -70,8 +65,10 @@ export default function Profile() {
           <div className="flex gap-4 mt-2">
             {/* Download CV Button */}
 
-            <a  target="_blank"   href="https://drive.google.com/file/d/1MNyIvAZqrRl6zYbuXLvP8Z4PvQmecMmB/view?usp=sharing">
-             
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1MNyIvAZqrRl6zYbuXLvP8Z4PvQmecMmB/view?usp=sharing"
+            >
               <button className="social-button">
                 <span className="icon-text">
                   <FaEye />
@@ -111,11 +108,18 @@ export default function Profile() {
           </div>
         </div>
         <div>
-          <div>
-            <img data-aos="fade-up"
-              className="min-w-84"
+          <div className="relative">
+            <img
+              data-aos="fade-up"
+              className="min-w-84 z-10 relative"
               src="https://i.postimg.cc/25wS61DF/193250547-1-removebg-preview.png"
               alt="profile image"
+            />
+
+            <img
+              className="absolute top-0 left-0 z-0"
+              src="https://i.postimg.cc/7L1k3fhW/mix-icon-for-react-vector-removebg-preview.png"
+              alt=""
             />
           </div>
         </div>

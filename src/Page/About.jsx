@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="maxwidth px-4 py-16">
+    <div className="maxwidth px-4 py-16 overflow-hidden">
       <h3
         className="text-3xl font-bold text-[#00b4d8] text-center mb-10"
         data-aos="fade-up"
