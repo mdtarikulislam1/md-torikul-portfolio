@@ -103,3 +103,7 @@
     transform: translateX(0);
   }
 }
+
+.my_image{
+  filter: drop-shadow(0 4px 20px rgba(65,158,245,0.922));
+}

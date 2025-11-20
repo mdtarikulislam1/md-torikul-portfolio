@@ -111,7 +111,7 @@ export default function Profile() {
           <div className="relative">
             <img
               data-aos="fade-up"
-              className="min-w-84 z-10 relative"
+              className="min-w-84 z-10 relative my_image"
               src="https://i.postimg.cc/25wS61DF/193250547-1-removebg-preview.png"
               alt="profile image"
             />
