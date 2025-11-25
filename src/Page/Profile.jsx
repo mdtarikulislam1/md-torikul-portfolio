@@ -67,7 +67,7 @@ export default function Profile() {
 
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1MNyIvAZqrRl6zYbuXLvP8Z4PvQmecMmB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Je24t1LLq4a-DPyXGDS4f-Esy2t6rJ74/view?usp=sharing"
             >
               <button className="social-button">
                 <span className="icon-text">
