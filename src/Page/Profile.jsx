@@ -76,7 +76,7 @@ export default function Profile() {
                 </span>
               </button>
             </a>
-
+ 
             {/* Hire Me Button */}
             {/* dsjhd dhd */}
             <Link
@@ -116,11 +116,6 @@ export default function Profile() {
               alt="profile image"
             />
 
-            <img
-              className="absolute top-0 left-0 z-0"
-              src="https://i.postimg.cc/7L1k3fhW/mix-icon-for-react-vector-removebg-preview.png"
-              alt=""
-            />
           </div>
         </div>
       </div>

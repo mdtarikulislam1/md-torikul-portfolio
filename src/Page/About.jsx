@@ -28,7 +28,7 @@ export default function About() {
               </p>
 
               <p>
-                <span className="font-semibold text-white">Experience:</span> 2
+                <span className="font-semibold text-white">Experience:</span> 3
                 months (Frontend Developer)
               </p>
 
@@ -88,7 +88,7 @@ export default function About() {
 
                 <p>
                   <span className="font-semibold text-white">Tech Stack:</span>{" "}
-                  React, Tailwind, Node.js (basic)
+                  React, Tailwind, js
                 </p>
               </div>
             </div>
